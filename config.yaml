@@ -1,0 +1,11 @@
+authentication:
+  method: MYSQL
+  host: 13.209.92.14
+  user: admin
+  password: "@Macrogentso123"
+  database: credentials
+  table: service
+history:
+  method: S3
+  bucket: macrogen-research
+  users_dir: tso/macrogen-office/service/users
