@@ -14,12 +14,11 @@ jobs:
   streamlit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4 # Checks out the current repository code from GitHub and copies the code to the job environment
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - uses: streamlit/streamlit-app-action@v0.0.3
         with:
           app-path: main.py
-          python-version: "3.12"
-          requirements-path: requirements.txt
+
