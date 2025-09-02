@@ -1,0 +1,11 @@
+streamlit
+streamlit-openai
+openai
+extra-streamlit-components
+mysql-connector-python
+bcrypt
+xlrd
+openpyxl
+markdown
+PyYAML
+boto3
